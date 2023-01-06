@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net7.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GenerateDocumentationFile>False</GenerateDocumentationFile>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>BigO Logging Decorators</Title>
+		<Product>BigO Library</Product>
+		<Description>Extensions to the BigO.Cqrs project to add logging capability to command and query handlers.</Description>
+		<Copyright>Copyright © Omar Besiso 2022</Copyright>
+		<PackageProjectUrl>https://github.com/omarbesiso/BigO.Core</PackageProjectUrl>
+		<PackageIcon>bigo.png</PackageIcon>
+		<RepositoryType>git</RepositoryType>
+		<RepositoryUrl>https://github.com/omarbesiso/BigO.Core.git</RepositoryUrl>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+		<Authors>Omar Besiso</Authors>
+		<Version>1.0.0</Version>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BigO.Cqrs" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<Resource Include="Resources\bigo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</Resource>
+	</ItemGroup>
+
+</Project>
