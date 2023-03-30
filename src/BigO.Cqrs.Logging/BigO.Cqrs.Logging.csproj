@@ -17,11 +17,11 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
 		<Authors>Omar Besiso</Authors>
-		<Version>1.0.0</Version>
+		<Version>1.1.5</Version>
 	</PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="BigO.Cqrs" Version="1.1.0" />
+    <PackageReference Include="BigO.Cqrs" Version="1.1.5" />
     <PackageReference Include="Microsoft.Extensions.Logging" Version="7.0.0" />
   </ItemGroup>
 
